@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Générateur d'accroches — Rocco</title>
+<meta name="description" content="Trouve l'accroche qui arrête le scroll. Outil gratuit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --noir:#0D0D0D;
+    --charbon:#181818;
+    --gris:#8A8A8A;
+    --gris-clair:#C8C8C8;
+    --blanc:#FFFFFF;
+    --vert:#C8F135;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    background:var(--noir);
+    color:var(--blanc);
+    font-family:'Archivo',system-ui,-apple-system,sans-serif;
+    line-height:1.5;
+    min-height:100vh;
+    padding:32px 20px 80px;
+  }
+
+  .wrap{max-width:660px;margin:0 auto}
+
+  /* ---------- En-tête ---------- */
+
+  .compteur{
+    font-size:13px;
+    color:var(--vert);
+    font-weight:600;
+    letter-spacing:.04em;
+    margin-bottom:28px;
+  }
+
+  h1{
+    font-size:clamp(34px,8vw,52px);
+    font-weight:800;
+    line-height:1.02;
+    letter-spacing:-.03em;
+    margin-bottom:18px;
+  }
+
+  h1 .souligne{
+    position:relative;
+    white-space:nowrap;
+  }
+  h1 .souligne::after{
+    content:"";
+    position:absolute;
+    left:-1%;
+    right:-1%;
+    bottom:.06em;
+    height:.13em;
+    background:var(--vert);
+    transform:rotate(-.5deg);
+    z-index:-1;
+  }
+
+  .chapeau{
+    font-size:16px;
+    color:var(--gris-clair);
+    max-width:44ch;
+    margin-bottom:44px;
+  }
+
+  /* ---------- Formulaire ---------- */
+
+  form{margin-bottom:12px}
+
+  .champ{margin-bottom:18px}
+
+  label{
+    display:block;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:7px;
+  }
+
+  .aide{
+    font-weight:400;
+    color:var(--gris);
+    font-size:13px;
+  }
+
+  input{
+    width:100%;
+    background:var(--charbon);
+    border:1px solid #2A2A2A;
+    border-radius:8px;
+    padding:15px 16px;
+    color:var(--blanc);
+    font-family:inherit;
+    font-size:16px;
+  }
+  input::placeholder{color:#5A5A5A}
+  input:focus{
+    outline:2px solid var(--vert);
+    outline-offset:1px;
+    border-color:transparent;
+  }
+
+  button{
+    width:100%;
+    background:var(--vert);
+    color:var(--noir);
+    border:0;
+    border-radius:8px;
+    padding:16px;
+    font-family:inherit;
+    font-size:16px;
+    font-weight:800;
+    cursor:pointer;
+    margin-top:8px;
+  }
+  button:hover{background:#D4F855}
+  button:disabled{opacity:.5;cursor:default}
+  button:focus-visible{outline:2px solid var(--blanc);outline-offset:2px}
+
+  /* ---------- Messages ---------- */
+
+  .message{
+    margin-top:22px;
+    font-size:15px;
+    color:var(--gris-clair);
+  }
+  .message.erreur{color:#FF7A6B}
+
+  /* ---------- Résultats ---------- */
+
+  #sortie{margin-top:52px}
+
+  .famille{margin-bottom:40px}
+
+  .famille h2{
+    font-size:15px;
+    font-weight:800;
+    margin-bottom:4px;
+  }
+
+  .famille p.desc{
+    font-size:13px;
+    color:var(--gris);
+    margin-bottom:16px;
+  }
+
+  .hook{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    background:var(--charbon);
+    border-left:2px solid var(--vert);
+    border-radius:0 8px 8px 0;
+    padding:15px 16px;
+    margin-bottom:9px;
+  }
+
+  .hook p{
+    flex:1;
+    font-size:16px;
+    line-height:1.4;
+  }
+
+  .copier{
+    flex-shrink:0;
+    width:auto;
+    background:transparent;
+    color:var(--gris);
+    border:1px solid #333;
+    border-radius:6px;
+    padding:6px 11px;
+    font-size:12px;
+    font-weight:600;
+    margin:0;
+  }
+  .copier:hover{background:#232323;color:var(--blanc)}
+  .copier.fait{color:var(--vert);border-color:var(--vert)}
+
+  /* ---------- Pied ---------- */
+
+  footer{
+    margin-top:64px;
+    padding-top:26px;
+    border-top:1px solid #222;
+    font-size:14px;
+    color:var(--gris);
+  }
+  footer strong{color:var(--blanc);font-weight:600}
+  footer a{color:var(--vert);text-decoration:none;font-weight:600}
+  footer a:hover{text-decoration:underline}
+
+  @media (max-width:520px){
+    .hook{flex-direction:column;gap:11px}
+    .copier{align-self:flex-start}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important;animation:none!important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="compteur">Outil #1 — offert</p>
+
+  <h1>Trouve l'accroche qui <span class="souligne">arrête le scroll</span>.</h1>
+
+  <p class="chapeau">
+    Tu as moins de deux secondes avant que le pouce bouge. Décris ta vidéo,
+    récupère 12 accroches écrites pour tenir dans ce délai.
+  </p>
+
+  <form id="form">
+    <div class="champ">
+      <label for="sujet">De quoi parle ta vidéo ?</label>
+      <input id="sujet" name="sujet" type="text" required
+             placeholder="ex : comment j'ai gagné mes 500 premiers euros en ligne">
+    </div>
+
+    <div class="champ">
+      <label for="audience">À qui tu parles ? <span class="aide">— facultatif</span></label>
+      <input id="audience" name="audience" type="text"
+             placeholder="ex : des jeunes qui veulent se lancer">
+    </div>
+
+    <button type="submit" id="btn">Générer 12 accroches</button>
+  </form>
+
+  <p class="message" id="message" hidden></p>
+
+  <div id="sortie"></div>
+
+  <footer>
+    <p>Fait par <strong>Rocco</strong>. Un nouvel outil chaque vendredi.</p>
+    <p style="margin-top:6px"><a href="#" id="lien-insta">Suivre sur Instagram</a></p>
+  </footer>
+
+</div>
+
+<script>
+const FAMILLES = {
+  chiffre:        { titre:"Chiffre",        desc:"Un nombre précis. Le cerveau s'arrête dessus." },
+  contradiction:  { titre:"Contradiction",  desc:"Tu casses une croyance. Il reste pour comprendre." },
+  identification: { titre:"Identification", desc:"Il se reconnaît. Il ne peut plus scroller." },
+  curiosite:      { titre:"Curiosité",      desc:"Tu ouvres une boucle. Il doit la fermer." }
+};
+
+const form    = document.getElementById("form");
+const btn     = document.getElementById("btn");
+const message = document.getElementById("message");
+const sortie  = document.getElementById("sortie");
+
+function afficherMessage(texte, estErreur) {
+  message.textContent = texte;
+  message.classList.toggle("erreur", !!estErreur);
+  message.hidden = !texte;
+}
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const sujet    = document.getElementById("sujet").value.trim();
+  const audience = document.getElementById("audience").value.trim();
+
+  if (sujet.length < 3) {
+    afficherMessage("Décris ton sujet en quelques mots de plus.", true);
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = "Génération…";
+  afficherMessage("");
+  sortie.innerHTML = "";
+
+  try {
+    const rep = await fetch("/api/generate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sujet, audience })
+    });
+
+    const data = await rep.json();
+
+    if (!rep.ok) {
+      afficherMessage(data.error || "La génération a échoué. Réessaie.", true);
+      return;
+    }
+
+    afficher(data.hooks);
+
+  } catch {
+    afficherMessage("Connexion impossible. Vérifie ton réseau et réessaie.", true);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Générer 12 accroches";
+  }
+});
+
+function afficher(hooks) {
+  sortie.innerHTML = "";
+
+  Object.keys(FAMILLES).forEach((cle) => {
+    const liste = hooks[cle];
+    if (!Array.isArray(liste) || liste.length === 0) return;
+
+    const bloc = document.createElement("section");
+    bloc.className = "famille";
+
+    const h2 = document.createElement("h2");
+    h2.textContent = FAMILLES[cle].titre;
+    bloc.appendChild(h2);
+
+    const desc = document.createElement("p");
+    desc.className = "desc";
+    desc.textContent = FAMILLES[cle].desc;
+    bloc.appendChild(desc);
+
+    liste.forEach((texte) => {
+      const ligne = document.createElement("div");
+      ligne.className = "hook";
+
+      const p = document.createElement("p");
+      p.textContent = texte;
+      ligne.appendChild(p);
+
+      const copier = document.createElement("button");
+      copier.type = "button";
+      copier.className = "copier";
+      copier.textContent = "Copier";
+      copier.addEventListener("click", () => {
+        navigator.clipboard.writeText(texte).then(() => {
+          copier.textContent = "Copié";
+          copier.classList.add("fait");
+          setTimeout(() => {
+            copier.textContent = "Copier";
+            copier.classList.remove("fait");
+          }, 1600);
+        });
+      });
+      ligne.appendChild(copier);
+
+      bloc.appendChild(ligne);
+    });
+
+    sortie.appendChild(bloc);
+  });
+
+  sortie.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+</script>
+</body>
+</html>
