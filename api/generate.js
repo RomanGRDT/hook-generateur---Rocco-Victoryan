@@ -19,17 +19,90 @@ ${audience ? `PUBLIC VISÉ : ${audience}` : ""}
 
 Génère 12 accroches en t'appuyant sur les structures ci-dessous.
 
-═══ CE QUI FAIT QU'UNE ACCROCHE MARCHE ═══
+═══ CE QUI ARRÊTE VRAIMENT LE POUCE ═══
 
-L'ENJEU EST PERSONNEL. L'accroche parle du spectateur, pas de toi. "Voilà pourquoi tes vidéos ne marchent pas" bat "je vais t'expliquer les hooks".
+Une accroche qui constate ne retient personne. Une accroche qui DÉRANGE retient.
+Le scroll s'arrête quand le cerveau détecte une menace pour l'image de soi, une accusation, ou une information qu'on aurait dû avoir et qu'on n'a pas.
 
-ELLE EST CONCRÈTE. Un détail précis bat une généralité. "143 vues" bat "peu de vues". "Trois secondes" bat "le début".
+Compare :
+✗ "3 raisons qui expliquent tes 94 vues" → constat neutre, on scrolle
+✓ "Tes 94 vues, c'est pas l'algorithme. C'est toi." → accusation, ça pique
 
-ELLE CRÉE UN MANQUE. Le spectateur doit sentir qu'il lui manque une information qu'il devrait avoir. La curiosité naît d'un vide, pas d'une promesse.
+✗ "Publier plus souvent ne changera rien" → information tiède
+✓ "Tu peux poster 100 vidéos. Tu feras 100 fois 200 vues." → prédiction brutale
 
-ELLE EST IMMÉDIATEMENT CLAIRE. Si le spectateur doit relire ou réfléchir, il est parti. Niveau de lecture d'un enfant de 12 ans.
+✗ "Les 3 premières secondes sont importantes" → évidence
+✓ "Personne ne dépasse ta 2e seconde. Personne." → verdict sec
 
-ELLE FONCTIONNE EN MUET. Elle doit se lire à l'écran, seule, sans contexte, sans le son.
+LES QUATRE LEVIERS D'IMPACT :
+
+1. L'ACCUSATION DIRECTE
+Tu désignes le spectateur comme responsable. Il se défend mentalement, donc il reste.
+"C'est toi le problème, pas l'algorithme."
+"Tu fais ça depuis le début et tu ne le sais pas."
+
+2. LA PRÉDICTION QUI ENFERME
+Tu annonces son futur s'il ne change rien. Il veut savoir s'il peut y échapper.
+"Dans 6 mois tu seras exactement au même point."
+"Tu vas abandonner dans 3 semaines. Comme les autres."
+
+3. LE VERDICT SANS APPEL
+Une phrase courte, définitive, sans nuance. Le cerveau déteste rester sur un verdict non expliqué.
+"Ton contenu est bon. Ça ne suffira jamais."
+"Ce n'est pas une question de travail."
+
+4. LE SECRET RETENU
+Tu affirmes que quelque chose lui est caché. La perte d'information est plus douloureuse que l'absence de gain.
+"Ce que les gros comptes ne t'expliqueront jamais."
+"On te fait croire l'inverse depuis le début."
+
+RÈGLE DE TENSION :
+Chaque accroche doit provoquer une des trois réactions suivantes chez le spectateur :
+- "Attends, quoi ?" (surprise)
+- "Non mais c'est pas vrai" (contestation)
+- "Merde, c'est moi ça" (reconnaissance gênante)
+
+Si elle ne provoque aucune des trois, elle est trop molle. Réécris-la.
+
+RYTHME :
+Les phrases courtes frappent plus fort que les longues. Deux phrases sèches battent une phrase construite.
+"Tu postes. Personne ne regarde. Voilà pourquoi." bat "Voici les raisons pour lesquelles tes vidéos ne génèrent pas d'engagement."
+
+═══ IL DOIT SAVOIR OÙ IL MET LES PIEDS ═══
+
+Déranger ne suffit pas. En lisant l'accroche, le spectateur doit comprendre immédiatement deux choses, même sans y penser consciemment :
+
+1. DE QUOI PARLE LA VIDÉO
+Le sujet doit être lisible dans l'accroche elle-même. Pas de mystère total.
+
+2. CE QU'IL GAGNE À RESTER
+Il doit sentir qu'il repartira avec quelque chose d'utilisable.
+
+Une accroche qui dérange mais dont on ne sait pas de quoi elle parle fait scroller aussi vite qu'une accroche molle. Le cerveau écarte ce qu'il ne peut pas classer.
+
+Compare :
+✗ "C'est toi le problème" → ça pique, mais problème de quoi ? On ne sait pas. Scroll.
+✓ "Tes vidéos ne décollent pas. C'est pas l'algo, c'est toi." → même impact, et on sait de quoi il s'agit.
+
+✗ "Personne ne te l'a jamais dit" → intrigant mais vide. Aucun sujet identifiable.
+✓ "Personne ne t'a dit pourquoi tes vidéos plafonnent à 200 vues." → même curiosité, sujet clair.
+
+✗ "Tu vas abandonner dans 3 semaines" → menace sans objet.
+✓ "Tu vas abandonner tes vidéos dans 3 semaines. Voilà comment l'éviter." → menace + bénéfice.
+
+LA FORMULE QUI MARCHE :
+Impact + sujet identifiable + promesse implicite de solution.
+
+Souvent, deux phrases courtes suffisent : la première frappe, la seconde situe.
+"Tes 94 vues ne viennent pas de l'algorithme. Elles viennent de 3 erreurs."
+
+Le bénéfice n'a pas besoin d'être annoncé explicitement. S'il comprend que tu as identifié un problème précis qui est le sien, il en déduit tout seul que tu as la réponse.
+
+═══ MAIS RESTE HONNÊTE ═══
+
+Dérange sans mentir. L'accroche doit être tenue par la vidéo.
+Pas de fausse urgence, pas de menace inventée, pas de chiffre sorti de nulle part.
+Une accroche brutale mais vraie crée de la confiance. Une accroche brutale et creuse détruit un compte.
 
 ═══ STRUCTURES ÉPROUVÉES ═══
 
@@ -95,12 +168,15 @@ Chaque accroche doit attaquer le sujet par un angle différent : le résultat, l
 
 ═══ AVANT DE RENDRE CHAQUE ACCROCHE ═══
 
-Relis-la seule, sans le sujet. Trois questions :
-1. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
-2. Pourrait-elle servir pour un autre sujet ? Si oui, elle est trop vague — ajoute un détail concret tiré du sujet donné.
-3. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ? Une vidéo qui livre 3 raisons ne peut pas être annoncée par une accroche au singulier.
+Relis-la seule, sans le sujet. Cinq questions :
+1. Provoque-t-elle "attends quoi ?", "non c'est pas vrai" ou "merde c'est moi" ? Si aucune des trois, elle est trop molle. Réécris-la avec un des quatre leviers d'impact.
+2. En la lisant seule, sait-on DE QUOI parle la vidéo ? Si le sujet n'est pas identifiable, elle est inutilisable — ajoute l'élément concret qui situe.
+3. Le spectateur devine-t-il ce qu'il gagne à rester ? Il doit sentir qu'une réponse l'attend.
+4. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
+5. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ?
 
 Puis relis les 12 ensemble : si plusieurs disent la même chose autrement, remplace-les par d'autres angles.
+Et vérifie qu'au moins la moitié utilise l'accusation directe ou le verdict sec. Une liste de 12 constats polis ne sert à rien.
 
 ═══ RÉPARTITION ═══
 
