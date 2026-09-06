@@ -19,6 +19,40 @@ ${audience ? `PUBLIC VISÉ : ${audience}` : ""}
 
 Génère 12 accroches en t'appuyant sur les structures ci-dessous.
 
+═══ PREMIÈRE ÉTAPE OBLIGATOIRE : SITUE LE SPECTATEUR ═══
+
+Avant d'écrire la moindre accroche, lis le sujet et le public, et détermine OÙ EN EST la personne à qui tu parles.
+
+Trois situations possibles :
+
+A) ELLE N'A PAS ENCORE COMMENCÉ
+Indices : "veut se lancer", "débuter", "démarrer", "se lancer sur".
+→ Elle n'a AUCUN passé sur le sujet. Elle n'a pas de vues, pas d'échecs, pas de statistiques.
+→ INTERDIT : lui reprocher ses résultats, parler de ses vidéos, de ses vues, de ses mois perdus.
+→ Ce qui la retient : la peur de se lancer, le regard des autres, ne pas savoir par où commencer, croire qu'il est trop tard, penser qu'il faut du matériel ou de l'argent.
+→ Leviers valides : l'erreur qu'elle s'apprête à faire, le temps qu'elle perd à hésiter, ce que personne ne lui dit avant de commencer, ce que font ceux qui réussissent dès le départ.
+
+B) ELLE A COMMENCÉ MAIS ÇA NE MARCHE PAS
+Indices : "ne décollent pas", "peu de vues", "stagne", "n'y arrive pas".
+→ Elle a un passé, des chiffres, des échecs. Tu peux t'appuyer dessus.
+→ Leviers valides : accusation sur ses résultats, prédiction de son avenir, erreurs qu'elle répète.
+
+C) ELLE MARCHE DÉJÀ MAIS VEUT PLUS
+Indices : "scaler", "monétiser", "passer au niveau supérieur".
+→ Elle a des résultats. Ne lui reproche pas ses échecs, elle n'en a pas sur ce point.
+→ Leviers valides : le plafond invisible, ce qui marche à petite échelle et casse à grande échelle.
+
+RÈGLE ABSOLUE :
+Ne prête JAMAIS au spectateur une expérience qu'il n'a pas.
+Si le sujet dit "veut se lancer", une accroche qui parle de ses 200 vues est fausse et il le sait immédiatement. Il scrolle, pas parce qu'elle est molle, mais parce qu'elle ne le concerne pas.
+
+Exemple, sujet "conseils pour étudiants qui veulent se lancer sur les réseaux" :
+✗ "3 mois à poster. 0€ gagné." → il n'a jamais posté
+✗ "Tu filmes, tu postes, personne ne regarde" → il n'a jamais filmé
+✓ "Tu veux te lancer depuis 6 mois. Tu n'as toujours rien posté."
+✓ "Attends d'avoir du bon matériel et tu ne commenceras jamais."
+✓ "Le pire moment pour se lancer, c'est quand tu te sens prêt."
+
 ═══ CE QUI ARRÊTE VRAIMENT LE POUCE ═══
 
 Une accroche qui constate ne retient personne. Une accroche qui DÉRANGE retient.
@@ -168,12 +202,13 @@ Chaque accroche doit attaquer le sujet par un angle différent : le résultat, l
 
 ═══ AVANT DE RENDRE CHAQUE ACCROCHE ═══
 
-Relis-la seule, sans le sujet. Cinq questions :
-1. Provoque-t-elle "attends quoi ?", "non c'est pas vrai" ou "merde c'est moi" ? Si aucune des trois, elle est trop molle. Réécris-la avec un des quatre leviers d'impact.
-2. En la lisant seule, sait-on DE QUOI parle la vidéo ? Si le sujet n'est pas identifiable, elle est inutilisable — ajoute l'élément concret qui situe.
-3. Le spectateur devine-t-il ce qu'il gagne à rester ? Il doit sentir qu'une réponse l'attend.
-4. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
-5. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ?
+Relis-la seule, sans le sujet. Six questions :
+1. Correspond-elle à la SITUATION du spectateur identifiée en première étape ? Si elle lui prête une expérience qu'il n'a pas, jette-la et réécris.
+2. Provoque-t-elle "attends quoi ?", "non c'est pas vrai" ou "merde c'est moi" ? Si aucune des trois, elle est trop molle.
+3. En la lisant seule, sait-on DE QUOI parle la vidéo ? Si le sujet n'est pas identifiable, ajoute l'élément concret qui situe.
+4. Le spectateur devine-t-il ce qu'il gagne à rester ?
+5. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
+6. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ?
 
 Puis relis les 12 ensemble : si plusieurs disent la même chose autrement, remplace-les par d'autres angles.
 Et vérifie qu'au moins la moitié utilise l'accusation directe ou le verdict sec. Une liste de 12 constats polis ne sert à rien.
