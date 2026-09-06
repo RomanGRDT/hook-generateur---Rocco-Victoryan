@@ -19,7 +19,29 @@ ${audience ? `PUBLIC VISÉ : ${audience}` : ""}
 
 Génère 12 accroches en t'appuyant sur les structures ci-dessous.
 
-═══ PREMIÈRE ÉTAPE OBLIGATOIRE : SITUE LE SPECTATEUR ═══
+═══ PREMIÈRE ÉTAPE OBLIGATOIRE : IDENTIFIE À QUI TU PARLES ═══
+
+Avant tout, lis le sujet ET le public. Le champ "public visé" peut être vide, vague ou absent — dans ce cas, déduis-le du sujet lui-même.
+
+Réponds mentalement à ces questions :
+
+QUI EST-CE ?
+Un étudiant, un salarié, un indépendant, un parent, un débutant total ? Sa situation de vie change tout ce qu'il ressent.
+Si le sujet mentionne "étudiant", "salarié", "en reconversion", "à 30 ans" — c'est une information capitale, l'accroche doit s'en servir.
+
+QU'EST-CE QUI LE BLOQUE VRAIMENT ?
+Pas le blocage technique — le blocage émotionnel.
+Un étudiant : le regard des potes, le manque de temps entre les cours, le sentiment de ne pas être légitime, la peur du ridicule.
+Un salarié : la fatigue après le boulot, la peur que son employeur voie, le confort du salaire.
+Un débutant total : ne pas savoir par où commencer, croire qu'il faut du matériel, penser qu'il est trop tard.
+
+PARLE SA LANGUE
+Utilise le vocabulaire de sa vie à lui. Pour un étudiant : les cours, les partiels, la colocation, les potes de promo, le petit job.
+Une accroche qui utilise son vocabulaire lui parle dix fois plus qu'une accroche générale.
+
+Si le public est explicitement nommé dans le sujet, au moins la moitié des accroches doivent le mentionner ou évoquer sa situation concrète. Sinon il ne se sentira pas visé.
+
+═══ DEUXIÈME ÉTAPE : SITUE-LE DANS SON PARCOURS ═══
 
 Avant d'écrire la moindre accroche, lis le sujet et le public, et détermine OÙ EN EST la personne à qui tu parles.
 
@@ -202,16 +224,19 @@ Chaque accroche doit attaquer le sujet par un angle différent : le résultat, l
 
 ═══ AVANT DE RENDRE CHAQUE ACCROCHE ═══
 
-Relis-la seule, sans le sujet. Six questions :
-1. Correspond-elle à la SITUATION du spectateur identifiée en première étape ? Si elle lui prête une expérience qu'il n'a pas, jette-la et réécris.
-2. Provoque-t-elle "attends quoi ?", "non c'est pas vrai" ou "merde c'est moi" ? Si aucune des trois, elle est trop molle.
-3. En la lisant seule, sait-on DE QUOI parle la vidéo ? Si le sujet n'est pas identifiable, ajoute l'élément concret qui situe.
-4. Le spectateur devine-t-il ce qu'il gagne à rester ?
-5. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
-6. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ?
+Relis-la seule, sans le sujet. Sept questions :
+1. Le public visé se sent-il concerné ? Si un public précis est nommé dans le sujet, l'accroche doit évoquer sa situation ou son vocabulaire.
+2. Correspond-elle à la SITUATION du spectateur (pas commencé / commencé sans succès / marche déjà) ? Si elle lui prête une expérience qu'il n'a pas, jette-la et réécris.
+3. Provoque-t-elle "attends quoi ?", "non c'est pas vrai" ou "merde c'est moi" ? Si aucune des trois, elle est trop molle.
+4. En la lisant seule, sait-on DE QUOI parle la vidéo ? Si le sujet n'est pas identifiable, ajoute l'élément concret qui situe.
+5. Le spectateur devine-t-il ce qu'il gagne à rester ?
+6. Peut-on la comprendre de travers ? Si oui, réécris plus simple.
+7. Si le sujet annonce un nombre, l'accroche le respecte-t-elle ?
 
-Puis relis les 12 ensemble : si plusieurs disent la même chose autrement, remplace-les par d'autres angles.
-Et vérifie qu'au moins la moitié utilise l'accusation directe ou le verdict sec. Une liste de 12 constats polis ne sert à rien.
+Puis relis les 12 ensemble :
+- Si plusieurs disent la même chose autrement, remplace-les par d'autres angles.
+- Vérifie qu'au moins la moitié utilise l'accusation directe ou le verdict sec.
+- Vérifie qu'au moins la moitié évoque explicitement la situation du public visé.
 
 ═══ RÉPARTITION ═══
 
